@@ -1,0 +1,109 @@
+/* customXX Use With Design framework bootstrap */
+
+/**
+ * @import url('https://fonts.googleapis.com/css?family=Kanit|Open+Sans');
+ *
+ * body { font-family: 'Open Sans', sans-serif; font-size: 20px; color: #333333;
+ * }
+ */
+
+
+
+
+
+
+
+/*******************************************************************************/
+/* Text Color */
+
+/* Dark */
+
+H3 {
+ margin-top : 20px;
+ font-size  : 26px;
+}
+
+.textDark {
+ color : #333;
+}
+
+.textDark H3 {
+ color : #333;
+}
+
+/* Light */
+
+.textLight {
+ color : #fff;
+}
+
+.textLight H3 {
+ color : #fff;
+}
+
+
+
+
+
+/*******************************************************************************/
+ /*******************************************************************************/
+ /*Section Back Ground*/
+ .customBgSection:before {
+  z-index  : -1;
+  content  : "";
+  display  : block;
+  position : fixed;
+  right    : 0;
+  left     : 0;
+ }
+
+ .customBgSection {
+  background-size : cover;
+ }
+
+
+
+.transformSkewY {
+ z-index       : -1;
+ position      : relative;
+ width         : 100%;
+ margin-top    : 100px;
+ margin-bottom : 100px;
+ color         : #fff;
+ /* height: 100%; */
+}
+
+.transformSkewY div {
+ padding-top    : 50px;
+ padding-bottom : 50px;
+}
+
+.transformSkewY p {
+ /* color : rgba(255, 255, 255, 1); */
+}
+
+.transformSkewY:before {
+ z-index           : -1;
+ content           : "";
+ position          : absolute;
+ width             : 100%;
+ height            : 100%;
+ background-color  : rgba(0, 0, 0, .5);
+ -moz-transform    : skewY(-12deg);
+ -ms-transform     : skewY(-12deg);
+ -o-transform      : skewY(-12deg);
+ -webkit-transform : skewY(-12deg);
+ transform         : skewY(-12deg);
+ /* -webkit-transform: skewY(-12deg); transform: skewY(-12deg); */
+ /**
+  * -webkit-transform: skewY(-12deg); -moz-transform: skewY(-12deg); -o-transform:
+  * skewY(-12deg); -ms-transform: skewY(-12deg); transform: skewY(-12deg);
+  */
+}
+
+/* Common */
+
+.boxShadow {
+ box-shadow : 0 5px 11px 0 rgba(0, 0, 0, .18),
+              0 4px 15px 0 rgba(0, 0, 0, .15);
+}
